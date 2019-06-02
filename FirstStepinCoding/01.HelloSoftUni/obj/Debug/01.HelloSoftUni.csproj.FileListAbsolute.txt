@@ -1,0 +1,7 @@
+C:\Users\Tonkata\Desktop\C#\FirstStepinCoding\01.HelloSoftUni\bin\Debug\01.HelloSoftUni.exe.config
+C:\Users\Tonkata\Desktop\C#\FirstStepinCoding\01.HelloSoftUni\bin\Debug\01.HelloSoftUni.exe
+C:\Users\Tonkata\Desktop\C#\FirstStepinCoding\01.HelloSoftUni\bin\Debug\01.HelloSoftUni.pdb
+C:\Users\Tonkata\Desktop\C#\FirstStepinCoding\01.HelloSoftUni\obj\Debug\01.HelloSoftUni.csprojAssemblyReference.cache
+C:\Users\Tonkata\Desktop\C#\FirstStepinCoding\01.HelloSoftUni\obj\Debug\01.HelloSoftUni.csproj.CoreCompileInputs.cache
+C:\Users\Tonkata\Desktop\C#\FirstStepinCoding\01.HelloSoftUni\obj\Debug\01.HelloSoftUni.exe
+C:\Users\Tonkata\Desktop\C#\FirstStepinCoding\01.HelloSoftUni\obj\Debug\01.HelloSoftUni.pdb

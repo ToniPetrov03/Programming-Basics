@@ -1,0 +1,6 @@
+C:\Users\Tonkata\Desktop\C#\FirstStepinCoding\03.Nums1to20\bin\Debug\03.Nums1to20.exe.config
+C:\Users\Tonkata\Desktop\C#\FirstStepinCoding\03.Nums1to20\bin\Debug\03.Nums1to20.exe
+C:\Users\Tonkata\Desktop\C#\FirstStepinCoding\03.Nums1to20\bin\Debug\03.Nums1to20.pdb
+C:\Users\Tonkata\Desktop\C#\FirstStepinCoding\03.Nums1to20\obj\Debug\03.Nums1to20.csproj.CoreCompileInputs.cache
+C:\Users\Tonkata\Desktop\C#\FirstStepinCoding\03.Nums1to20\obj\Debug\03.Nums1to20.exe
+C:\Users\Tonkata\Desktop\C#\FirstStepinCoding\03.Nums1to20\obj\Debug\03.Nums1to20.pdb
