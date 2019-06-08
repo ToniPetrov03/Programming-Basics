@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _07.AlcoholMarket
 {
@@ -22,7 +18,7 @@ namespace _07.AlcoholMarket
 
             double sumAll = priceWhiskey * litersWhiskey + priceRaki * litersRaki + priceWine * litersWine + priceBeer * litersBeer;
 
-            Console.WriteLine(String.Format("{0:0.00}", sumAll));
+            Console.WriteLine("{0:F2}", sumAll);
         }
     }
 }

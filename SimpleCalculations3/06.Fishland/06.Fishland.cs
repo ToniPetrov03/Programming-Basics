@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _06.Fishland
 {
@@ -21,7 +17,7 @@ namespace _06.Fishland
             double priceAllClam = kiloClam * 7.5;
             double priceAll = priceAllPalm + priceAllScad + priceAllClam;
 
-            Console.WriteLine(String.Format("{0:0.00}", priceAll));
+            Console.WriteLine("{0:F2}", priceAll);
         }
     }
 }

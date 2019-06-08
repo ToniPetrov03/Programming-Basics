@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _06.CharityCampaign
 {
@@ -22,7 +18,7 @@ namespace _06.CharityCampaign
             double sumDay = (sumCakes + sumWaffles + sumPancakes) * numConfectioners;
             double sumCampaign = sumDay * days;
 
-            Console.WriteLine(String.Format("{0:0.00}" ,sumCampaign - sumCampaign / 8));
+            Console.WriteLine("{0:F2}", sumCampaign - sumCampaign / 8);
         }
     }
 }

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _04.MetricConverter
 {
@@ -31,7 +27,7 @@ namespace _04.MetricConverter
                 value *= 100;
             }
 
-            Console.WriteLine("{0:f3}", value);
+            Console.WriteLine("{0:F3}", value);
         }
     }
 }

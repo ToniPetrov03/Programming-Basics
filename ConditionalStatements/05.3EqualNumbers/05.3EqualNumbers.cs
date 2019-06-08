@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _05._3EqualNumbers
 {
@@ -14,7 +10,7 @@ namespace _05._3EqualNumbers
             int num2 = int.Parse(Console.ReadLine());
             int num3 = int.Parse(Console.ReadLine());
 
-            if (num1 == num2 & num2 == num3)
+            if (num1 == num2 && num2 == num3)
             {
                 Console.WriteLine("yes");
             }

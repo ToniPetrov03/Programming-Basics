@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _09.AreaOfFigures
 {
@@ -17,30 +13,30 @@ namespace _09.AreaOfFigures
                 double side = double.Parse(Console.ReadLine());
                 double area = side * side;
 
-                Console.WriteLine(String.Format("{0:0.000}", area));
+                Console.WriteLine("{0:F3}", area);
             }
-            if (geometricShape == "rectangle")
+            else if (geometricShape == "rectangle")
             {
                 double sideA = double.Parse(Console.ReadLine()); 
                 double sideB = double.Parse(Console.ReadLine());
                 double area = sideA * sideB;
 
-                Console.WriteLine(String.Format("{0:0.000}", area));
+                Console.WriteLine("{0:F3}", area);
             }
-            if (geometricShape == "circle")
+            else if (geometricShape == "circle")
             {
                 double r = double.Parse(Console.ReadLine());
                 double area = Math.PI * r * r;
 
-                Console.WriteLine(String.Format("{0:0.000}", area));
+                Console.WriteLine("{0:F3}", area);
             }
-            if (geometricShape == "triangle")
+            else if (geometricShape == "triangle")
             {
                 double side = double.Parse(Console.ReadLine());
                 double height = double.Parse(Console.ReadLine());
                 double area = side * height / 2;
 
-                Console.WriteLine(String.Format("{0:0.000}", area));
+                Console.WriteLine("{0:F3}", area);
             }
         }
     }

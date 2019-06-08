@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace _07.PetShop
 {
     class Program
@@ -15,10 +10,7 @@ namespace _07.PetShop
 
             decimal price = numDogs * 2.5m + numOthers * 4;
 
-            string s = price.ToString("N2");
-            decimal pricE = Convert.ToDecimal(s);
-
-            Console.WriteLine(pricE + " lv.");
+            Console.WriteLine("{0:F2} lv.", price);
         }
     }
 }

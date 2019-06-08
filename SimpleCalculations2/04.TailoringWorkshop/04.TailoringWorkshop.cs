@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _04.TailoringWorkshop
 {
@@ -19,8 +15,8 @@ namespace _04.TailoringWorkshop
             double USD = areaCovers * 7 + areaSquare * 9;
             double BGN = USD * 1.85;
 
-            Console.WriteLine(String.Format("{0:0.00}", USD) + " USD");
-            Console.WriteLine(String.Format("{0:0.00}", BGN) + " BGN");
+            Console.WriteLine("{0:F2} USD", USD);
+            Console.WriteLine("{0:F2} BGN", BGN);
         }
     }
 }

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _04.Number1to9toText
 {
@@ -16,39 +12,39 @@ namespace _04.Number1to9toText
             {
                 Console.WriteLine("number too big");
             }
-            if (num == 1)
+            else if (num == 1)
             {
                 Console.WriteLine("one");
             }
-            if (num == 2)
+            else if (num == 2)
             {
                 Console.WriteLine("two");
             }
-            if (num == 3)
+            else if (num == 3)
             {
                 Console.WriteLine("three");
             }
-            if (num == 4)
+            else if (num == 4)
             {
                 Console.WriteLine("four");
             }
-            if (num == 5)
+            else if (num == 5)
             {
                 Console.WriteLine("five");
             }
-            if (num == 6)
+            else if (num == 6)
             {
                 Console.WriteLine("six");
             }
-            if (num == 7)
+            else if (num == 7)
             {
                 Console.WriteLine("seven");
             }
-            if (num == 8)
+            else if (num == 8)
             {
                 Console.WriteLine("eight");
             }
-            if (num == 9)
+            else if (num == 9)
             {
                 Console.WriteLine("nine");
             }
