@@ -10,8 +10,10 @@ namespace _05.Firm
             int days = int.Parse(Console.ReadLine());
             int numWorkersOvertime = int.Parse(Console.ReadLine());
 
-            double hoursWorkers = (days - days * 0.1) * 8;
-            double hoursWorkersOvertime = numWorkersOvertime * 2 * days;
+            const int overtimeHoursPerDay = 2;
+            double hoursWorkersTraining = days - days * 0.1;
+            double hoursWorkers = hoursWorkersTraining * 8;
+            double hoursWorkersOvertime = numWorkersOvertime * overtimeHoursPerDay * days;
             double allHours = Math.Floor(hoursWorkers + hoursWorkersOvertime);
 
             if (allHours >= neededHours)

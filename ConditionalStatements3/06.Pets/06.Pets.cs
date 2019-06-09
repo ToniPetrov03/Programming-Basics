@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _06.Pets
 {
@@ -14,18 +10,19 @@ namespace _06.Pets
             int foodLeft = int.Parse(Console.ReadLine());
             double foodDogOneDay = double.Parse(Console.ReadLine());
             double foodCatOneDay = double.Parse(Console.ReadLine());
-            double foodTurtleOneDay = double.Parse(Console.ReadLine())/1000;
+            double foodTurtleOneDayInGrams = double.Parse(Console.ReadLine());
 
-            double allFoods = days * (foodDogOneDay + foodCatOneDay + foodTurtleOneDay);
+            double foodTurtleOneDay = foodTurtleOneDayInGrams / 1000;
+            double allFood = days * (foodDogOneDay + foodCatOneDay + foodTurtleOneDay);
 
-            if (allFoods <= foodLeft)
+            if (allFood <= foodLeft)
             {
-                double leftFood = Math.Floor(foodLeft - allFoods);
+                double leftFood = Math.Floor(foodLeft - allFood);
                 Console.WriteLine($"{leftFood} kilos of food left.");
             }
             else
             {
-                double neededFood = Math.Ceiling(allFoods - foodLeft);
+                double neededFood = Math.Ceiling(allFood - foodLeft);
                 Console.WriteLine($"{neededFood} more kilos of food are needed.");
             }
         }

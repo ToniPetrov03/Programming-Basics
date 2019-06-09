@@ -9,19 +9,22 @@ namespace _02.SleepyTomCat
             int holidays = int.Parse(Console.ReadLine());
 
             int minutesPlayHolidays = holidays * 127;
-            int minutesPlayWorkingDays = (365 - holidays) * 63;
+            int workingDays = 365 - holidays;
+            int minutesPlayWorkingDays = workingDays * 63;
 
-            if (30000 > minutesPlayHolidays + minutesPlayWorkingDays)
+            const int minutesPerYear = 30000;
+
+            if (minutesPerYear > minutesPlayHolidays + minutesPlayWorkingDays)
             {
-                int allMinutesRemain = 30000 - (minutesPlayHolidays + minutesPlayWorkingDays);
+                int allMinutesRemain = minutesPerYear - (minutesPlayHolidays + minutesPlayWorkingDays);
                 int hours = allMinutesRemain / 60;
                 int minutes = allMinutesRemain % 60;
                 Console.WriteLine("Tom sleeps well");
                 Console.WriteLine($"{hours} hours and {minutes} minutes less for play");
             }
-            else if (30000 < minutesPlayHolidays + minutesPlayWorkingDays)
+            else if (minutesPerYear < minutesPlayHolidays + minutesPlayWorkingDays)
             {
-                int allMinutesMore = minutesPlayHolidays + minutesPlayWorkingDays - 30000;
+                int allMinutesMore = minutesPlayHolidays + minutesPlayWorkingDays - minutesPerYear;
                 int hours = allMinutesMore / 60;
                 int minutes = allMinutesMore % 60;
 
