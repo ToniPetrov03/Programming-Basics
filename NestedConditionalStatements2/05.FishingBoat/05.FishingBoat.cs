@@ -27,6 +27,7 @@ namespace _05.FishingBoat
             {
                 price = priceRentShipWinter;
             }
+
             if (numFishermen <= 6)
             {
                 price -= price * 0.1;
