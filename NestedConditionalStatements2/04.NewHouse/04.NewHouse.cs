@@ -57,6 +57,7 @@ namespace _04.NewHouse
                     price += price * 0.2;
                 }
             }
+
             if (budget >= price)
             {
                 Console.WriteLine($"Hey, you have a great garden with {numFlowers} {typeOfFlower} and {budget - price:F2} leva left.");
