@@ -45,6 +45,7 @@ namespace _05.FishingBoat
             {
                 price -= price * 0.05;
             }
+
             if (budget >= price)
             {
                 Console.WriteLine($"Yes! You have {budget - price:F2} leva left.");
