@@ -39,6 +39,7 @@ namespace _05.FishingBoat
             {
                 price -= price * 0.25;
             }
+
             if (season != "Autumn" && numFishermen % 2 == 0)
             {
                 price -= price * 0.05;
