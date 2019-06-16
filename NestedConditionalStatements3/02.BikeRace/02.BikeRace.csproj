@@ -7,7 +7,7 @@
     <ProjectGuid>{CA4A2DC5-2E5D-456D-926E-FAE06D294E53}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_02.BikeRace</RootNamespace>
-    <AssemblyName>_02.BikeRace</AssemblyName>
+    <AssemblyName>02.BikeRace</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="02.BikeRace.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

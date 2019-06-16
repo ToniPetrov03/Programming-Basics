@@ -7,7 +7,7 @@
     <ProjectGuid>{D721E267-8CD5-4C54-B39C-03E1AF0FC76F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_04.CarToGo</RootNamespace>
-    <AssemblyName>_04.CarToGo</AssemblyName>
+    <AssemblyName>04.CarToGo</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="04.CarToGo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
