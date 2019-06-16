@@ -20,36 +20,28 @@ namespace _11.AnimalType
             double sumBear = numBears * 4.1;
             double sumMignon = numMignons * 8.2;
             int sumTruck = numTrucks * 2;
+            double gain = 0;
 
             double finalPrice = sumPuzzles + sumDoll + sumBear + sumMignon + sumTruck;
 
             if (numAll >= 50)
             {
-                double gain = (finalPrice - finalPrice * 0.25) - (finalPrice - finalPrice * 0.25) * 0.1;
-                if (gain >= priceExcursion)
-                {
-                    double remain = gain - priceExcursion;
-                    Console.WriteLine("Yes! {0:F2} lv left.", remain);
-                }
-                else
-                {
-                    double need = priceExcursion - gain;
-                    Console.WriteLine("Not enough money! {0:F2} lv needed.", need);
-                }
+                gain = (finalPrice - finalPrice * 0.25) - (finalPrice - finalPrice * 0.25) * 0.1;
             }
             else
             {
-                double gain = finalPrice - finalPrice * 0.1;
-                if (gain >= priceExcursion)
-                {
-                    double remain = gain - priceExcursion;
-                    Console.WriteLine("Yes! {0:F2} lv left.", remain);
-                }
-                else
-                {
-                    double need = priceExcursion - gain;
-                    Console.WriteLine("Not enough money! {0:F2} lv needed.", need);
-                }
+                gain = finalPrice - finalPrice * 0.1;
+            }
+
+            if (gain >= priceExcursion)
+            {
+                double remain = gain - priceExcursion;
+                Console.WriteLine("Yes! {0:F2} lv left.", remain);
+            }
+            else
+            {
+                double need = priceExcursion - gain;
+                Console.WriteLine("Not enough money! {0:F2} lv needed.", need);
             }
         }
     }
