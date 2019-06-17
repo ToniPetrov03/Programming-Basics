@@ -9,15 +9,15 @@ namespace _04.CarToGo
             double budget = double.Parse(Console.ReadLine());
             string summerOrWinter = Console.ReadLine();
 
-            string Class = string.Empty;
+            string category = string.Empty;
             string car = string.Empty;
             double price = 0;
-
+            bool isSummer = summerOrWinter == "Summer";
             if (budget > 0 && budget <= 100)
             {
-                Class = "Economy class";
+                category = "Economy class";
 
-                if (summerOrWinter == "Summer")
+                if (isSummer)
                 {
                     car = "Cabrio";
                     price = budget * 0.35;
@@ -30,9 +30,9 @@ namespace _04.CarToGo
             }
             else if (budget > 100 && budget <= 500)
             {
-                Class = "Compact class";
+                category = "Compact class";
 
-                if (summerOrWinter == "Summer")
+                if (isSummer)
                 {
                     car = "Cabrio";
                     price = budget * 0.45;
@@ -45,12 +45,12 @@ namespace _04.CarToGo
             }
             else if (budget > 500)
             {
-                Class = "Luxury class";
+                category = "Luxury class";
                 car = "Jeep";
                 price = budget * 0.9;
             }
 
-            Console.WriteLine(Class);
+            Console.WriteLine(category);
             Console.WriteLine($"{car} - {price:F2}");
         }
     }

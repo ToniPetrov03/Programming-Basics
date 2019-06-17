@@ -12,8 +12,9 @@ namespace _05.Vacation
             string place = string.Empty;
             string location = string.Empty;
             double price = 0;
+            bool isSummer = summerOrWinter == "Summer";
 
-            if (summerOrWinter == "Summer")
+            if (isSummer)
             {
                 location = "Alaska";
             }
@@ -26,7 +27,7 @@ namespace _05.Vacation
             {
                 place = "Camp";
 
-                if (summerOrWinter == "Summer")
+                if (isSummer)
                 {
                     price = budget * 0.65;
                 }
@@ -39,7 +40,7 @@ namespace _05.Vacation
             {
                 place = "Hut";
 
-                if (summerOrWinter == "Summer")
+                if (isSummer)
                 {
                     price = budget * 0.8;
                 }
