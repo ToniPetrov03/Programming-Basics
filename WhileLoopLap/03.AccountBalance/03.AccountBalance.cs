@@ -25,6 +25,8 @@ namespace _03.AccountBalance
                 Console.WriteLine($"Increase: {amount:F2}");
                 counter++;
             }
+
+            Console.WriteLine($"Total: {balance:F2}");
         }
     }
 }
