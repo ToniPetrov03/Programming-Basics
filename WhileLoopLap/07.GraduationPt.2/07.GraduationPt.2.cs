@@ -13,7 +13,7 @@ namespace _07.GraduationPt._2
             double sumMarks = 0.0;
             int failedExams = 0;
 
-            while (counter++ < classes)
+            while (counter < classes)
             {
                 double mark = double.Parse(Console.ReadLine());
 
@@ -23,12 +23,13 @@ namespace _07.GraduationPt._2
 
                     if (failedExams > 1)
                     {
-                        Console.WriteLine($"{name} has been excluded at {counter - 1} grade");
+                        Console.WriteLine($"{name} has been excluded at {counter} grade");
                         break;
                     }
                 }
 
                 sumMarks += mark;
+                counter++;
             }
 
             double average = sumMarks / classes;

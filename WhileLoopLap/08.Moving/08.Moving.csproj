@@ -7,7 +7,7 @@
     <ProjectGuid>{06B1CDB0-CE65-4E55-8E80-D0FBF263D635}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_08.Moving</RootNamespace>
-    <AssemblyName>_08.Moving</AssemblyName>
+    <AssemblyName>08.Moving</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="08.Moving.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
