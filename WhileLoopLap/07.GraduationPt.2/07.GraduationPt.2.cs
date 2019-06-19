@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _06.Graduation
+namespace _07.GraduationPt._2
 {
     class Program
     {
@@ -10,21 +10,30 @@ namespace _06.Graduation
 
             const int classes = 12;
             int counter = 0;
-            double sumMarks = 0;
+            double sumMarks = 0.0;
+            int failedExams = 0;
 
-            while (counter < classes)
+            while (counter++ < classes)
             {
                 double mark = double.Parse(Console.ReadLine());
 
-                if (mark >= 4)
+                if (mark < 4)
                 {
-                    sumMarks += mark;
-                    counter++;
+                    failedExams++;
+
+                    if (failedExams > 1)
+                    {
+                        Console.WriteLine($"{name} has been excluded at {counter - 1} grade");
+                        break;
+                    }
                 }
+
+                sumMarks += mark;
             }
 
             double average = sumMarks / classes;
 
+            if(failedExams < 2)
             Console.WriteLine($"{name} graduated. Average grade: {average:F2}");
         }
     }
