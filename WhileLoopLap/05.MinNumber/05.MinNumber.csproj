@@ -7,7 +7,7 @@
     <ProjectGuid>{F71EA302-3CD9-446A-B0CC-F830F731A504}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_05.MinNumber</RootNamespace>
-    <AssemblyName>_05.MinNumber</AssemblyName>
+    <AssemblyName>05.MinNumber</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="05.MinNumber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

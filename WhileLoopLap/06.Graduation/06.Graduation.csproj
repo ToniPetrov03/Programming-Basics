@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9DBBDA1B-EEB0-4DE6-A3C0-2BF022F7514C}</ProjectGuid>
+    <ProjectGuid>{FEB96724-8477-4D38-B6A5-D78F97B40A98}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_02.Sequence2kPlus1</RootNamespace>
-    <AssemblyName>02.Sequence2kPlus1</AssemblyName>
+    <RootNamespace>_06.Graduation</RootNamespace>
+    <AssemblyName>06.Graduation</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="02.Sequence2kPlus1.cs" />
+    <Compile Include="06.Graduation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

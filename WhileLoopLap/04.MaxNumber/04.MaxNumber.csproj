@@ -7,7 +7,7 @@
     <ProjectGuid>{AFB54FC9-629E-4C2E-B327-0A7F7EB11191}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_04.MaxNumber</RootNamespace>
-    <AssemblyName>_04.MaxNumber</AssemblyName>
+    <AssemblyName>04.MaxNumber</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="04.MaxNumber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
