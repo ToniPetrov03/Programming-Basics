@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.ExamPreparation", "02.Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Vacation", "03.Vacation\03.Vacation.csproj", "{777D54D2-A2D9-4FE5-812E-F1AF85AFA119}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Walking", "04.Walking\04.Walking.csproj", "{676CD1AA-0097-4F16-8BAD-E47D6F135E0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Coins", "05.Coins\05.Coins.csproj", "{0530E78D-540C-4223-BC94-2DE5354EC283}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{777D54D2-A2D9-4FE5-812E-F1AF85AFA119}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{777D54D2-A2D9-4FE5-812E-F1AF85AFA119}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{777D54D2-A2D9-4FE5-812E-F1AF85AFA119}.Release|Any CPU.Build.0 = Release|Any CPU
+		{676CD1AA-0097-4F16-8BAD-E47D6F135E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{676CD1AA-0097-4F16-8BAD-E47D6F135E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{676CD1AA-0097-4F16-8BAD-E47D6F135E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{676CD1AA-0097-4F16-8BAD-E47D6F135E0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0530E78D-540C-4223-BC94-2DE5354EC283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0530E78D-540C-4223-BC94-2DE5354EC283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0530E78D-540C-4223-BC94-2DE5354EC283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0530E78D-540C-4223-BC94-2DE5354EC283}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

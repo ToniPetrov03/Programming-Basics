@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{676CD1AA-0097-4F16-8BAD-E47D6F135E0D}</ProjectGuid>
+    <ProjectGuid>{0530E78D-540C-4223-BC94-2DE5354EC283}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_04.Walking</RootNamespace>
-    <AssemblyName>04.Walking</AssemblyName>
+    <RootNamespace>_05.Coins</RootNamespace>
+    <AssemblyName>05.Coins</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="04.Walking.cs" />
+    <Compile Include="05.Coins.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
