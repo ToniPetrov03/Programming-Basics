@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _05.AverageNumber
 {
@@ -10,6 +6,17 @@ namespace _05.AverageNumber
     {
         static void Main(string[] args)
         {
+            int numOfNumber = int.Parse(Console.ReadLine());
+            double sum = 0;
+
+            for (int i = 0; i < numOfNumber; i++)
+            {
+                int num = int.Parse(Console.ReadLine());
+
+                sum += num;
+            }
+
+            Console.WriteLine("{0:F2}", sum / numOfNumber);
         }
     }
 }

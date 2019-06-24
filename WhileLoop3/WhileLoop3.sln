@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.StreamOfLetters", "03.St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.NumbersDividedByThreeWithoutReminder", "04.NumbersDividedByThreeWithoutReminder\04.NumbersDividedByThreeWithoutReminder.csproj", "{70754879-3DD4-4E6D-A8BC-B22B55E77BAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.AverageNumber", "05.AverageNumber\05.AverageNumber.csproj", "{CEE51509-4D76-4C56-8EA3-B1EAE290FD98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{70754879-3DD4-4E6D-A8BC-B22B55E77BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70754879-3DD4-4E6D-A8BC-B22B55E77BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70754879-3DD4-4E6D-A8BC-B22B55E77BAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEE51509-4D76-4C56-8EA3-B1EAE290FD98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE51509-4D76-4C56-8EA3-B1EAE290FD98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE51509-4D76-4C56-8EA3-B1EAE290FD98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE51509-4D76-4C56-8EA3-B1EAE290FD98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
