@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1C078E77-2C35-4E06-BA45-08B41AD97857}</ProjectGuid>
+    <ProjectGuid>{6EF28AA8-FF25-4EC6-AC3A-1E1F836D2DDD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_03.SumNumbers</RootNamespace>
-    <AssemblyName>03.SumNumbers</AssemblyName>
+    <RootNamespace>_04.NumberSequence</RootNamespace>
+    <AssemblyName>04.NumberSequence</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="03.SumNumbers.cs" />
+    <Compile Include="04.NumberSequence.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
