@@ -4,68 +4,62 @@ namespace _03.StreamOfLetters
 {
     class Program
     {
+        static bool CheckIfLatin(char letter)
+        {
+            return (letter >= 'a' && letter <= 'z') || (letter >= 'A' && letter <= 'Z');
+        }
         static void Main(string[] args)
         {
-            string command = Console.ReadLine();
-
             string text = string.Empty;
-            int couterOfC = 0;
-            int couterOfO = 0;
-            int couterOfN = 0;
-            int couterOfSecretCommands = 0;
-            bool isSecretLetter = false;
+            bool isCAppeared = false;
+            bool isOAppeared = false;
+            bool isNAppeared = false;
+            string word = string.Empty;
 
-            while (command != "End")
+            while (true)
             {
+                string command = Console.ReadLine();
+
+                if (command == "End")
+                    break;
+
                 char letter = char.Parse(command);
 
-                if ((letter >= 'a' && letter <= 'z') || (letter >= 'A' && letter <= 'Z'))
+                if (CheckIfLatin(letter))
                 {
-                    if (letter == 'c' && couterOfC < 1)
+                    string latinLetter = letter.ToString();
+
+                    if (latinLetter == "c" && !isCAppeared)
                     {
-                        couterOfC++;
-                        couterOfSecretCommands++;
-                        isSecretLetter = true;
+                        isCAppeared = true;
+                        latinLetter = string.Empty;
                     }
-                    else if (letter == 'o' && couterOfO < 1)
+                    else if (latinLetter == "o" && !isOAppeared)
                     {
-                        couterOfO++;
-                        couterOfSecretCommands++;
-                        isSecretLetter = true;
+                        isOAppeared = true;
+                        latinLetter = string.Empty;
                     }
-                    else if (letter == 'n' && couterOfN < 1)
+                    else if (latinLetter == "n" && !isNAppeared)
                     {
-                        couterOfN++;
-                        couterOfSecretCommands++;
-                        isSecretLetter = true;
+                        isNAppeared = true;
+                        latinLetter = string.Empty;
                     }
 
-                    if (couterOfSecretCommands == 3)
-                    {
-                        Console.Write($"{text} ");
+                    word += latinLetter;
 
-                        couterOfSecretCommands = 0;
-                        couterOfC = 0;
-                        couterOfO = 0;
-                        couterOfN = 0;
-                        text = string.Empty;
-                    }
-                    else if (isSecretLetter == false)
+                    if (isCAppeared && isOAppeared && isNAppeared)
                     {
-                        text += letter;
-                    }
+                        text += word + " ";
 
-                    isSecretLetter = false;
+                        isCAppeared = false;
+                        isOAppeared = false;
+                        isNAppeared = false;
+                        word = string.Empty;
+                    }
                 }
-
-                command = Console.ReadLine();
             }
 
-            if (command == "End" && couterOfSecretCommands == 3)
-            {
-                Console.WriteLine(text);
-            }
-
+            Console.WriteLine(text);
         }
     }
 }
