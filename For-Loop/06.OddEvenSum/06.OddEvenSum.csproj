@@ -7,7 +7,7 @@
     <ProjectGuid>{99A540E7-50AB-45EF-A8A1-EA29F388CB3D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_06.OddEvenSum</RootNamespace>
-    <AssemblyName>_06.OddEvenSum</AssemblyName>
+    <AssemblyName>06.OddEvenSum</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="06.OddEvenSum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

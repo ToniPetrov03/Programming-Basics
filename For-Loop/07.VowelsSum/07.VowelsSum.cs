@@ -13,31 +13,17 @@ namespace _07.VowelsSum
             const int valueOfLetterI = 3;
             const int valueOfLetterO = 4;
             const int valueOfLetterU = 5;
-
-
             int vowelsSum = 0;
 
             for (int i = 0; i < text.Length; i++)
             {
-                if (text[i] == 'a')
+                switch (text[i])
                 {
-                    vowelsSum += valueOfLetterA;
-                }
-                else if (text[i] == 'e')
-                {
-                    vowelsSum += valueOfLetterE;
-                }
-                else if (text[i] == 'i')
-                {
-                    vowelsSum += valueOfLetterI;
-                }
-                else if (text[i] == 'o')
-                {
-                    vowelsSum += valueOfLetterO;
-                }
-                else if (text[i] == 'u')
-                {
-                    vowelsSum += valueOfLetterU;
+                    case 'a':  vowelsSum += valueOfLetterA; break;
+                    case 'e':  vowelsSum += valueOfLetterE; break;
+                    case 'i':  vowelsSum += valueOfLetterI; break;
+                    case 'o':  vowelsSum += valueOfLetterO; break;
+                    case 'u':  vowelsSum += valueOfLetterU; break;
                 }
             }
 

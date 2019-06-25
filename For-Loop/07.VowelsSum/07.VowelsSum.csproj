@@ -7,7 +7,7 @@
     <ProjectGuid>{5DBDEADC-0873-4CE7-B81A-30E1EFB895EE}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_07.VowelsSum</RootNamespace>
-    <AssemblyName>_07.VowelsSum</AssemblyName>
+    <AssemblyName>07.VowelsSum</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="07.VowelsSum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
