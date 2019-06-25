@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.SumNumbers", "03.SumNumb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.NumberSequence", "04.NumberSequence\04.NumberSequence.csproj", "{6EF28AA8-FF25-4EC6-AC3A-1E1F836D2DDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.LeftAndRightSum", "05.LeftAndRightSum\05.LeftAndRightSum.csproj", "{DF4CE36D-70CB-441F-9985-C43284798381}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{6EF28AA8-FF25-4EC6-AC3A-1E1F836D2DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EF28AA8-FF25-4EC6-AC3A-1E1F836D2DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EF28AA8-FF25-4EC6-AC3A-1E1F836D2DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF4CE36D-70CB-441F-9985-C43284798381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF4CE36D-70CB-441F-9985-C43284798381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF4CE36D-70CB-441F-9985-C43284798381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF4CE36D-70CB-441F-9985-C43284798381}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
