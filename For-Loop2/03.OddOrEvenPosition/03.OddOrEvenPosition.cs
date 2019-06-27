@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _03.OddOrEvenPosition
 {
@@ -55,7 +51,6 @@ namespace _03.OddOrEvenPosition
 
             if (oddPositionMin == null)
                 Console.WriteLine("OddMin=No,");
-
             else
             Console.WriteLine($"OddMin={oddPositionMin:F2},");
 
