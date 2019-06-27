@@ -7,7 +7,7 @@
     <ProjectGuid>{CEFF592D-E020-4D5E-A1D6-1B244687462A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_02.HalfSumElement</RootNamespace>
-    <AssemblyName>_02.HalfSumElement</AssemblyName>
+    <AssemblyName>02.HalfSumElement</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="02.HalfSumElement.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5EF03D8F-15AB-413C-B1DE-F137B379BCFB}</ProjectGuid>
+    <ProjectGuid>{EA1E7F19-B21E-4ACD-931E-4BEA147332E2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01.NumbersEndingIn7</RootNamespace>
-    <AssemblyName>01.NumbersEndingIn7</AssemblyName>
+    <RootNamespace>_03.OddOrEvenPosition</RootNamespace>
+    <AssemblyName>03.OddOrEvenPosition</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="01.NumbersEndingIn7.cs" />
+    <Compile Include="03.OddOrEvenPosition.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
