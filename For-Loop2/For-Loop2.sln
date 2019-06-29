@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.OddOrEvenPosition", "03.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.EqualPairs", "04.EqualPairs\04.EqualPairs.csproj", "{E09F0B48-1C10-456F-B739-FFF2FF2E850E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Histogram", "05.Histogram\05.Histogram.csproj", "{816E99C4-FD30-493D-A93A-CA1B6EB831B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{E09F0B48-1C10-456F-B739-FFF2FF2E850E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E09F0B48-1C10-456F-B739-FFF2FF2E850E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E09F0B48-1C10-456F-B739-FFF2FF2E850E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{816E99C4-FD30-493D-A93A-CA1B6EB831B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{816E99C4-FD30-493D-A93A-CA1B6EB831B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{816E99C4-FD30-493D-A93A-CA1B6EB831B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{816E99C4-FD30-493D-A93A-CA1B6EB831B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
