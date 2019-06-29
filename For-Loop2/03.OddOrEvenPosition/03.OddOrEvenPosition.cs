@@ -8,12 +8,14 @@ namespace _03.OddOrEvenPosition
         {
             int numNumbers = int.Parse(Console.ReadLine());
 
-            double oddPositionSum = 0.00;
-            double? oddPositionMin = null;
-            double? oddPositionMax = null;
-            double evenPositionSum = 0.00;
-            double? evenPositionMin = null;
-            double? evenPositionMax = null;
+            double oddPositionSum = 0d;
+            double oddPositionMin = double.MaxValue;
+            double oddPositionMax = double.MinValue;
+            double evenPositionSum = 0d;
+            double evenPositionMin = double.MaxValue;
+            double evenPositionMax = double.MinValue;
+            bool hasEven = false;
+            bool hasOdd = false;
 
             for (int i = 1; i <= numNumbers; i++)
             {
@@ -21,26 +23,30 @@ namespace _03.OddOrEvenPosition
 
                 if (i % 2 == 0)
                 {
+                    hasEven = true;
                     evenPositionSum += num;
 
-                    if (num < evenPositionMin || evenPositionMin == null)
+                    if (num < evenPositionMin)
                     {
                         evenPositionMin = num;
                     }
-                    if (num > evenPositionMax || evenPositionMax == null)
+
+                    if (num > evenPositionMax)
                     {
                         evenPositionMax = num;
                     }
                 }
                 else
                 {
+                    hasOdd = true;
                     oddPositionSum += num;
 
-                    if (num < oddPositionMin || oddPositionMin == null)
+                    if (num < oddPositionMin)
                     {
                         oddPositionMin = num;
                     }
-                    if (num > oddPositionMax || oddPositionMax == null)
+
+                    if (num > oddPositionMax)
                     {
                         oddPositionMax = num;
                     }
@@ -49,27 +55,29 @@ namespace _03.OddOrEvenPosition
 
             Console.WriteLine($"OddSum={oddPositionSum:F2},");
 
-            if (oddPositionMin == null)
+            if (hasOdd)
+            {
+                Console.WriteLine($"OddMin={oddPositionMin:F2},");
+                Console.WriteLine($"OddMax={oddPositionMax:F2},");
+            }
+            else
+            {
                 Console.WriteLine("OddMin=No,");
-            else
-            Console.WriteLine($"OddMin={oddPositionMin:F2},");
-
-            if (oddPositionMax == null)
                 Console.WriteLine("OddMax=No,");
-            else
-            Console.WriteLine($"OddMax={oddPositionMax:F2},");
+            }
 
             Console.WriteLine($"EvenSum={evenPositionSum:F2},");
 
-            if (evenPositionMin == null)
-                Console.WriteLine("EvenMin=No,");
-            else
+            if (hasEven)
+            {
                 Console.WriteLine($"EvenMin={evenPositionMin:F2},");
-
-            if (evenPositionMax == null)
-                Console.WriteLine("EvenMax=No");
-            else
                 Console.WriteLine($"EvenMax={evenPositionMax:F2}");
+            }
+            else
+            {
+                Console.WriteLine("EvenMin=No,");
+                Console.WriteLine("EvenMax=No");
+            }
         }
     }
 }
