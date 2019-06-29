@@ -20,10 +20,12 @@ namespace _06.DivideWithoutRemainder
                 {
                     numbersDividedBy2++;
                 }
+
                 if (num % 3 == 0)
                 {
                     numbersDividedBy3++;
                 }
+
                 if (num % 4 == 0)
                 {
                     numbersDividedBy4++;

@@ -28,7 +28,6 @@ namespace _05.Histogram
                 }
                 else if (num >= 400)
                 {
-
                     numbersBiggerThan400++;
                 }
                 else if (num >= 200)
