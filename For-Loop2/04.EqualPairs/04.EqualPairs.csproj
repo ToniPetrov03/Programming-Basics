@@ -7,7 +7,7 @@
     <ProjectGuid>{E09F0B48-1C10-456F-B739-FFF2FF2E850E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_04.EqualPairs</RootNamespace>
-    <AssemblyName>_04.EqualPairs</AssemblyName>
+    <AssemblyName>04.EqualPairs</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="04.EqualPairs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
