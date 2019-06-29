@@ -16,19 +16,13 @@ namespace _07.Salary
 
             for (int i = 0; i < numOpenTabBrowser; i++)
             {
-                string site = Console.ReadLine(); 
+                string site = Console.ReadLine();
 
-                if (site == "Facebook")
+                switch (site)
                 {
-                    fine += fineFacebook;
-                }
-                else if (site == "Instagram")
-                {
-                    fine += fineInstagram;
-                }
-                else if (site == "Reddit")
-                {
-                    fine += fineReddit;
+                    case "Facebook": fine += fineFacebook; break;
+                    case "Instagram": fine += fineInstagram; break;
+                    case "Reddit": fine += fineReddit; break;
                 }
 
                 if (fine >= salary)
