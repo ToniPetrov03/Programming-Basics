@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D8AF18D9-D189-4356-BCC0-AB60CA81730F}</ProjectGuid>
+    <ProjectGuid>{2C84A89A-CDC8-4A34-85FA-9B20C658C715}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_06.Bills</RootNamespace>
-    <AssemblyName>06.Bills</AssemblyName>
+    <RootNamespace>_08.Clock</RootNamespace>
+    <AssemblyName>08.Clock</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="06.Bills.cs" />
+    <Compile Include="08.Clock.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

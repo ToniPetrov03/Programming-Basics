@@ -7,7 +7,7 @@
     <ProjectGuid>{DD80BFBA-C767-46C2-84B9-12CBA8D493BE}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_03.Logistics</RootNamespace>
-    <AssemblyName>_03.Logistics</AssemblyName>
+    <AssemblyName>03.Logistics</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="03.Logistics.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
