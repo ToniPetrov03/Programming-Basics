@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D8E52CAB-13D6-47C5-9D5D-29C231BEB8B5}</ProjectGuid>
+    <ProjectGuid>{0A5DC666-D16B-4373-8D5C-6A3EB2D3E688}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_04.Combination</RootNamespace>
-    <AssemblyName>04.Combination</AssemblyName>
+    <RootNamespace>_05.Building</RootNamespace>
+    <AssemblyName>05.Building</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="04.Combination.cs" />
+    <Compile Include="05.Building.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
