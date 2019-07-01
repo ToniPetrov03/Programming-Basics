@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.FootballLeague", "07.Foo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.Clock", "08.Clock\08.Clock.csproj", "{2C84A89A-CDC8-4A34-85FA-9B20C658C715}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.ClockPart2", "09.ClockPart2\09.ClockPart2.csproj", "{010061D0-FB48-472D-AF24-CBC48A427542}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{2C84A89A-CDC8-4A34-85FA-9B20C658C715}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C84A89A-CDC8-4A34-85FA-9B20C658C715}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C84A89A-CDC8-4A34-85FA-9B20C658C715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{010061D0-FB48-472D-AF24-CBC48A427542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{010061D0-FB48-472D-AF24-CBC48A427542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{010061D0-FB48-472D-AF24-CBC48A427542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{010061D0-FB48-472D-AF24-CBC48A427542}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
