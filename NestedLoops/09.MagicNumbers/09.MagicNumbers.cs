@@ -24,7 +24,7 @@ namespace _09.MagicNumbers
 
                                     if (magicNumber == product)
                                     {
-                                        Console.WriteLine($"{firstDigit}{secondDigit}{thirdDigit}{fourthDigit}{fifthDigit}{sixthDigit}");
+                                        Console.Write($"{firstDigit}{secondDigit}{thirdDigit}{fourthDigit}{fifthDigit}{sixthDigit} ");
                                     }
                                 }
                             }
