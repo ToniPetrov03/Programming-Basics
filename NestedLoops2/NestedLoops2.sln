@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.NumberPyramid", "02.Numb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Coding", "03.Coding\03.Coding.csproj", "{2F1F1926-CB3D-420E-A1CD-7378B7A38A24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.EqualSumsEvenOddPosition", "04.EqualSumsEvenOddPosition\04.EqualSumsEvenOddPosition.csproj", "{33FB19D1-04C4-4AC8-9BF6-FB74350F8C6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2F1F1926-CB3D-420E-A1CD-7378B7A38A24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F1F1926-CB3D-420E-A1CD-7378B7A38A24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F1F1926-CB3D-420E-A1CD-7378B7A38A24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33FB19D1-04C4-4AC8-9BF6-FB74350F8C6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33FB19D1-04C4-4AC8-9BF6-FB74350F8C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33FB19D1-04C4-4AC8-9BF6-FB74350F8C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33FB19D1-04C4-4AC8-9BF6-FB74350F8C6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
