@@ -9,7 +9,7 @@ namespace _04.EqualSumsEvenOddPosition
             int startNum = int.Parse(Console.ReadLine());
             int endNum = int.Parse(Console.ReadLine());
 
-            for (int i = startNum; i < endNum; i++)
+            for (int i = startNum; i <= endNum; i++)
             {
                 int oddPositionSum = 0;
                 int evenPositionSum = 0;
