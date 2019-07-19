@@ -6,18 +6,19 @@ namespace _04.EqualSumsEvenOddPosition
     {
         static void Main(string[] args)
         {
-            int num = int.Parse(Console.ReadLine());
-            int num2 = int.Parse(Console.ReadLine());
+            int startNum = int.Parse(Console.ReadLine());
+            int endNum = int.Parse(Console.ReadLine());
 
-            for (int i = num; i < num2; i++)
+            for (int i = startNum; i < endNum; i++)
             {
-                num = i;
                 int oddPositionSum = 0;
                 int evenPositionSum = 0;
+                int currentNum = i;
 
                 for (int j = 1; j <= 6; j++)
                 {
-                    int n = num % 10;
+                    int n = currentNum % 10;
+                    currentNum /= 10;
 
                     if (j % 2 == 1)
                     {
@@ -27,8 +28,6 @@ namespace _04.EqualSumsEvenOddPosition
                     {
                         evenPositionSum += n;
                     }
-
-                    num /= 10;
                 }
 
                 if (oddPositionSum == evenPositionSum)
