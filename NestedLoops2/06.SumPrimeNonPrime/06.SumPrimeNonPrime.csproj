@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{880558F3-2E74-401B-BB01-A8A13F4EA409}</ProjectGuid>
+    <ProjectGuid>{5CEB3349-6250-480B-8FAC-19678636D8A4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_05.EqualSumsLeftRightPosition</RootNamespace>
-    <AssemblyName>05.EqualSumsLeftRightPosition</AssemblyName>
+    <RootNamespace>_06.SumPrimeNonPrime</RootNamespace>
+    <AssemblyName>06.SumPrimeNonPrime</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="05.EqualSumsLeftRightPosition.cs" />
+    <Compile Include="06.SumPrimeNonPrime.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
