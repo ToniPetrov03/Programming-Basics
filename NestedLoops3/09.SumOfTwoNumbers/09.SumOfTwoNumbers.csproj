@@ -7,7 +7,7 @@
     <ProjectGuid>{FF676B79-7382-4A99-A7B6-43F94A28F11C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_09.SumOfTwoNumbers</RootNamespace>
-    <AssemblyName>_09.SumOfTwoNumbers</AssemblyName>
+    <AssemblyName>09.SumOfTwoNumbers</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="09.SumOfTwoNumbers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
