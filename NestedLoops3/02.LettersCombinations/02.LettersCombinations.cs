@@ -12,21 +12,21 @@ namespace _02.LettersCombinations
 
             int counter = 0;
 
-            for (int firstLetter = startLetter; firstLetter <= endLetter; firstLetter++)
+            for (char firstLetter = startLetter; firstLetter <= endLetter; firstLetter++)
             {
                 if (firstLetter == specialLetter)
                 {
                     continue;
                 }
 
-                for (int secondLetter = startLetter; secondLetter <= endLetter; secondLetter++)
+                for (char secondLetter = startLetter; secondLetter <= endLetter; secondLetter++)
                 {
                     if (secondLetter == specialLetter)
                     {
                         continue;
                     }
 
-                    for (int thirdLetter = startLetter; thirdLetter <= endLetter; thirdLetter++)
+                    for (char thirdLetter = startLetter; thirdLetter <= endLetter; thirdLetter++)
                     {
                         if (thirdLetter == specialLetter)
                         {
@@ -35,7 +35,7 @@ namespace _02.LettersCombinations
 
                         counter++;
 
-                        Console.Write($"{(char)firstLetter}{(char)secondLetter}{(char)thirdLetter} ");
+                        Console.Write($"{firstLetter}{secondLetter}{thirdLetter} ");
                     }
                 }
             }

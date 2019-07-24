@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0D10CD29-680A-4442-9681-9FB10E716975}</ProjectGuid>
+    <ProjectGuid>{0BC017CB-6C53-45EC-A9BA-0A9E0D6BDB50}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_03.LuckyNumbers</RootNamespace>
-    <AssemblyName>03.LuckyNumbers</AssemblyName>
+    <RootNamespace>_05.ChallengeTheWedding</RootNamespace>
+    <AssemblyName>05.ChallengeTheWedding</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="03.LuckyNumbers.cs" />
+    <Compile Include="05.ChallengeTheWedding.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

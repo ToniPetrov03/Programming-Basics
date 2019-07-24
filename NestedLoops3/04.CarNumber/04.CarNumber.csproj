@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0D10CD29-680A-4442-9681-9FB10E716975}</ProjectGuid>
+    <ProjectGuid>{1B72A6DB-A17C-4864-8B2F-9A4BC68D928A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_03.LuckyNumbers</RootNamespace>
-    <AssemblyName>03.LuckyNumbers</AssemblyName>
+    <RootNamespace>_04.CarNumber</RootNamespace>
+    <AssemblyName>04.CarNumber</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="03.LuckyNumbers.cs" />
+    <Compile Include="04.CarNumber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
