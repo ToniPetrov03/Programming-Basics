@@ -10,7 +10,8 @@ namespace _05.ChallengeTheWedding
             int numWoman = int.Parse(Console.ReadLine());
             int maxNumTables = int.Parse(Console.ReadLine());
 
-            int counter = 0; 
+            int counter = 0;
+            bool isMaxNumTablesEqualsToCounter = false;
 
             for (int i = 1; i <= numMan; i++)
             {
@@ -22,8 +23,14 @@ namespace _05.ChallengeTheWedding
 
                     if (maxNumTables == counter)
                     {
-                        return;
+                        isMaxNumTablesEqualsToCounter = true;
+                        break;
                     }
+                }
+
+                if (isMaxNumTablesEqualsToCounter)
+                {
+                    break;
                 }
             }
         }

@@ -22,7 +22,7 @@ namespace _09.SumOfTwoNumbers
                     if (firstNumber + secondNumber == magicNumber)
                     {
                         Console.WriteLine($"Combination N:{serialNumber} ({firstNumber} + {secondNumber} = {magicNumber})");
-                        return;
+                        Environment.Exit(0);
                     }
 
                     counterOfAllCombinations++;
