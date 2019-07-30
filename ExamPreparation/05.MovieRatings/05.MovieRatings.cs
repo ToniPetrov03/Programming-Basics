@@ -24,6 +24,7 @@ namespace _05.MovieRatings
                     highestRaitingName = filmName;
                     highestRaiting = filmRaiting;
                 }
+
                 if (filmRaiting < lowestRaiting)
                 {
                     lowestRaitingName = filmName;
