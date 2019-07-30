@@ -23,7 +23,7 @@ namespace _07.SafePasswordsGenerator
 
                     if (maxNumberOfGeneratedPasswords == counter)
                     {
-                        return;
+                        Environment.Exit(0);
                     }
 
                     firstSymbol++;
