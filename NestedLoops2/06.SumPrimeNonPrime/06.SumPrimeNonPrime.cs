@@ -4,42 +4,51 @@ namespace _06.SumPrimeNonPrime
 {
     class Program
     {
+        static bool IsPrime(int num)
+        {
+            bool isPrime = true;
+
+            for (int i = 2; i < num; i++)
+            {
+                if (num % i == 0)
+                {
+                    isPrime = false;
+                    break;
+                }
+            }
+
+            return isPrime;
+        }
         static void Main(string[] args)
         {
-            string numOrStop = Console.ReadLine();
-
             int sumPrime = 0;
             int sumNonPrime = 0;
 
-            while (numOrStop != "stop")
+            while (true)
             {
-                int num = int.Parse(numOrStop);
+                string numOrStop = Console.ReadLine();
 
-                bool isPrime = true;
+                if (numOrStop == "stop")
+                {
+                    break;
+                }
+
+                int num = int.Parse(numOrStop);
 
                 if (num < 0)
                 {
                     Console.WriteLine("Number is negative.");
-                    numOrStop = Console.ReadLine();
                     continue;
                 }
 
-                for (int i = 2; i < num; i++)
-                {
-                    if (num % i == 0)
-                    {
-                        sumNonPrime += num;
-                        isPrime = false;
-                        break;
-                    }
-                }
-
-                if (isPrime)
+                if (IsPrime(num))
                 {
                     sumPrime += num;
                 }
-
-                numOrStop = Console.ReadLine();
+                else
+                {
+                    sumNonPrime += num;
+                }
             }
 
             Console.WriteLine($"Sum of all prime numbers is: {sumPrime}");

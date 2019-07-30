@@ -21,17 +21,13 @@ namespace _05.EqualSumsLeftRightPosition
                     int n = currentNum % 10;
                     currentNum /= 10;
 
-                    if (j % 5 == 0 || j % 4 == 0)
+                    switch (j)
                     {
-                        leftPositionSum += n;
-                    }
-                    else if (j % 3 == 0)
-                    {
-                        middleNumber = n;
-                    }
-                    else if (j % 2 == 0 || j % 1 == 0)
-                    {
-                        rightPositionSum += n;
+                        case 1:
+                        case 2: rightPositionSum += n; break;
+                        case 3: middleNumber = n; break;
+                        case 4:
+                        case 5: leftPositionSum += n; break;
                     }
                 }
 
@@ -49,6 +45,7 @@ namespace _05.EqualSumsLeftRightPosition
                     {
                         leftPositionSum += middleNumber;
                     }
+
                     if (leftPositionSum == rightPositionSum)
                     {
                         Console.Write(i + " ");

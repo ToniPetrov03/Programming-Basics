@@ -8,23 +8,29 @@ namespace _02.NumberPyramid
         {
             int num = int.Parse(Console.ReadLine());
 
-            int numbersOnRow = 1;
+            int current = 1;
+            bool isBigger = false;
 
-            for (int i = 1; i <= num;)
+            for (int rows = 1; rows <= num; rows++)
             {
-                for (int j = 1; j <= numbersOnRow; j++)
+                for (int cols = 1; cols <= rows; cols++)
                 {
-                    if (i > num)
+                    if (current > num)
                     {
+                        isBigger = true;
                         break;
                     }
 
-                    Console.Write(i + " ");
-                    i++;
+                    Console.Write(current + " ");
+                    current++;
+                }
+
+                if (isBigger)
+                {
+                    break;
                 }
 
                 Console.WriteLine();
-                numbersOnRow++;
             }
         }
     }
