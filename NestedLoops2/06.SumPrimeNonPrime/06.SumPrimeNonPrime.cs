@@ -6,6 +6,11 @@ namespace _06.SumPrimeNonPrime
     {
         static bool IsPrime(int num)
         {
+            if (num <= 1)
+            {
+                return false;
+            }
+            
             bool isPrime = true;
 
             for (int i = 2; i < num; i++)
